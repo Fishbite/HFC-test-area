@@ -1,0 +1,80 @@
+/* Just some styles for the start page
+I'll try to document as I go! Promise 8-) **/
+
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgb(88, 88, 88);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headR {
+  padding-top: 75vh;
+  text-align: center;
+  color: rgb(255, 231, 166);
+}
+
+/* disabled temporarily! *****
+.parallax {
+    background-image: url(../images/girl-in-dark-hood.jpg);
+/* set a min height. Important! */
+/*    min-height: 75vh;
+/* create the parallax effect */
+/*    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 100%;
+}
+*/
+.zoom {
+  overflow: hidden;
+  padding-bottom: 10%;
+}
+
+.zoom img {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.parallax img {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 75vh;
+}
+
+.overlay {
+  height: auto;
+}
+
+.overlay p {
+  margin: 20px auto;
+  padding: 20px;
+  width: 75vw;
+  border: 2px solid rgb(255, 231, 166);
+  border-radius: 25px;
+  color: rgb(255, 231, 166);
+}
+
+.parallax2 {
+  background-image: url(../images/saltandpepperspoons.jpg);
+  /* Set the min hieght of the otherwise empty div*/
+  min-height: 78vh;
+  /* Set up styles to allow the pparallax effect to manifest */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  background-image: url(../images/spices.jpg);
+  /* Set the min hieght of the otherwise empty div*/
+  min-height: 78vh;
+  /* Set up styles to allow the parallax effect to manifest */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
